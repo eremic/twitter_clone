@@ -15,11 +15,9 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'therubyracer',  platforms: :ruby
 
 group :development do
-	gem 'rspec-rails'
 end
 
 group :test do
-	gem 'rspec'
 	gem 'webrat'
 	gem 'spork'
 end
