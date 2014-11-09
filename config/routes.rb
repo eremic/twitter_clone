@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   
+  get 'users/new'
+
   root :to => 'pages#home', :via => [:get]
 
   match '/contact', :to => 'pages#contact', :via => [:get]
@@ -8,6 +10,7 @@ Rails.application.routes.draw do
   
   match '/help', :to => 'pages#help', :via => [:get]
 
+  match '/signup',  :to => 'users#new', :via => [:get]
 
   get 'pages/home'
 
