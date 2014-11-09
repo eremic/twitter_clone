@@ -2,7 +2,7 @@ module ApplicationHelper
 
 	def title
 		base_title = "Twitter clone Sample App"
-		if @titile.nil?
+		if @title.nil?
 			base_title
 		else
 			"#{base_title} | #{@title}"
